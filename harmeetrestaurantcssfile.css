@@ -232,6 +232,8 @@ div.containsClass{
 	margin-top: 20px;
 	margin-bottom: -7px;
 	background-position: 4px 90px; 
+	background-size: cover;
+	background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/image5.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding-bottom: 0px;
