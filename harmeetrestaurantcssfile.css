@@ -1,0 +1,257 @@
+.html{
+	padding: 0px 0px 0px 0px;
+	margin: 0px;
+}
+.body
+{
+	margin: 0px;
+}
+#line1{
+	padding-top: 10px;
+}
+.top p{
+	color: rgb(105,105,105);
+	margin-left: 80px; 
+	font-size: 7px;
+	font-weight: 3px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 0px;
+	line-height: 3px;
+	text-shadow: 0.23px 0.23px;
+
+}
+.top h1{
+	padding-left: 260px;
+	color: rgb(188, 155, 93);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 0px;
+	letter-spacing: 6px;
+	font-size: 30px;
+	padding-bottom: 22px;
+	padding-top: 0px;
+	margin: 0px;
+}
+.firstele li a{
+	color: rgb(188, 155, 93);
+}
+.wrap{
+	width: 656px;
+	align-items: left;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;overflow: hidden;
+    background-color: #ffffff;
+}
+li {
+	text-shadow: 0.15px 0.15px;
+    float: left;
+    font-size: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+li a {
+    display: inline-block;
+    color: rgb(105,105,105);
+    text-align: center;
+    padding: 7px 0px;
+    padding-left: 83px;
+    text-decoration: none;
+}
+.img1{
+	width: 656px;
+	margin: 0px;
+	height: 355px;
+	overflow: hidden;
+	background-position: -193px 17px; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ededed;
+    margin: 0 0;
+    padding: 0;
+} 
+.bigbox{
+	display: inline-block;
+	width: 656px;
+}
+.box1 {
+	padding-top: 55px;
+	padding-left: 65px;
+	float: left;
+}
+.p1{
+	padding-top: 9px;
+}
+.i3{
+	padding-top: 20px;
+}
+#topmost{
+	color: rgb(105,105,105);
+	font-size: 6px;
+	margin-bottom: -23px;
+	letter-spacing: 1px;
+	text-shadow: 0.15px 0.15px;
+}
+.t1 i h2{
+	font-family: serif;
+	color: rgb(188, 155, 93);
+	font-size: 18px;
+	margin-top: 30px;
+	margin-bottom: 4px;
+}
+.t1 p{
+	font-size: 7px;
+    font-family: 'helvetica';
+    margin-bottom: -3px;
+    color: rgb(105,105,105);
+}
+.t1 a{
+	text-decoration: none;
+	font-size: 8px;
+	color: black;
+	text-shadow: 0.15px 0.15px;
+	font-family: 'Open Sans', sans-serif;
+}
+.t2 i h2{
+	font-family: serif;
+	color: rgb(188, 155, 93);
+	font-size: 18px;
+	padding-left: 35px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+.t2 p{
+	padding-bottom: 5px;
+	font-size: 7px;
+    font-family: 'helvetica';
+    padding-left: 35px;
+    letter-spacing: 0.6px;
+    margin-bottom: -4px;
+    color: rgb(105,105,105);
+}
+.t2 a{
+	text-decoration: none;
+	font-size: 8px;
+	color: black;
+	padding-left: 35px;
+	text-shadow: 0.15px 0.15px;
+	font-family: 'Open Sans', sans-serif;
+}
+.t1 a:hover{
+	color: rgb(188, 155, 93);
+}
+.t2 a:hover{
+	color: rgb(188, 155, 93);
+}
+.box2{
+	float: left;
+	padding-bottom: 25px;
+}
+.t2 h2{
+	margin-top: 0px;
+}
+.i4{
+	padding-left: 23px;
+	padding-top: 50px;
+}
+.i5{
+	padding-left: 23px;
+	padding-top: 20px;
+}
+.box3{
+	width: 526px;
+	height: 330px;
+	overflow: hidden;
+	position: relative;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	margin-left: 65px;
+	background-size: contain;
+}
+img.secondLastImg{
+	width: 100%;
+}
+.in{
+	height: 76px;
+	width: 209px;
+	margin: auto;
+	background-color: white;
+	position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.in p{
+	
+	font-size: 7px;
+	letter-spacing: 1px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 15px;
+	color: rgb(105,105,105);
+}
+.in a{
+	color: rgb(69, 69, 69);
+	text-decoration: none;
+	font-size: 18px;
+	margin-top: -3px;
+}
+.in a:hover{
+	color: rgb(188, 155, 93);
+}
+.bottext p{
+	text-align: center;
+	font-size: 7px;
+	letter-spacing: 1px;
+	padding-top: 25px;
+	line-height: 0px;
+	color: rgb(105,105,105);
+}
+.bottext h2{
+	text-align: center;
+	padding-top: 0px;
+	font-family: 'Gabriela', serif;
+	color: rgb(188, 155, 93);
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+div.containsClass{
+	height: 270px;
+	width: 656px;
+	opacity: 0.72;
+	overflow: hidden;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: -7px;
+	background-position: 4px 90px; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding-bottom: 0px;
+}
+
+img.img {
+	width: 100%;
+}
+.last p{
+	padding-left: 435px;
+	padding-top: 35px;
+	line-height: 7px;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	font-size: 7px;
+	text-shadow: 0.35px 0.35px;
+}
+.last{
+	margin-top: 0px;
+	width: 656px;
+	height: 130px;
+	padding-top: 0px;
+	background-color: rgb(188, 155, 93);
+}
