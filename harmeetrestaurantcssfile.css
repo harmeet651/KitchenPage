@@ -67,6 +67,7 @@ li a {
 	background-position: -193px 17px; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-image: url('http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg');
 }
 hr {
     display: block;
