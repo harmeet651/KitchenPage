@@ -67,7 +67,7 @@ li a {
 	background-position: -193px 17px; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-image: url('http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg');
+	background-image: url('images/image6.jpg');
 }
 hr {
     display: block;
@@ -227,13 +227,10 @@ div.containsClass{
 	height: 270px;
 	width: 656px;
 	opacity: 0.72;
-	overflow: hidden;
-	position: relative;
 	margin-top: 20px;
 	margin-bottom: -7px;
 	background-position: 4px 90px; 
-	background-size: cover;
-	background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/image5.jpg");
+	background-image: url("images/image5.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	padding-bottom: 0px;
