@@ -1,8 +1,8 @@
-.html{
+html{
 	padding: 0px 0px 0px 0px;
 	margin: 0px;
 }
-.body
+body
 {
 	margin: 0px;
 }
@@ -11,22 +11,20 @@
 }
 .top p{
 	color: rgb(105,105,105);
-	margin-left: 80px; 
-	font-size: 7px;
-	font-weight: 3px;
+	margin-left: 180px; 
+	font-size: 15px;
+	font-weight: 13px;
 	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 0px;
-	line-height: 3px;
-	text-shadow: 0.23px 0.23px;
-
+	line-height: 2px;
+	opacity: 0.72;
 }
 .top h1{
-	padding-left: 260px;
+	text-align: center;
 	color: rgb(188, 155, 93);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 0px;
 	letter-spacing: 6px;
-	font-size: 30px;
+	font-size: 50px;
 	padding-bottom: 22px;
 	padding-top: 0px;
 	margin: 0px;
@@ -34,14 +32,11 @@
 .firstele li a{
 	color: rgb(188, 155, 93);
 }
-.wrap{
-	width: 656px;
-	align-items: left;
-}
+
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;overflow: hidden;
+	overflow: hidden;
     background-color: #ffffff;
 }
 li {
@@ -55,17 +50,20 @@ li a {
     display: inline-block;
     color: rgb(105,105,105);
     text-align: center;
-    padding: 7px 0px;
-    padding-left: 83px;
-    text-decoration: none;
+    padding: 10px 0px;
+	padding-left: 270px;
+	font-size: 15px;
+	width: 100%;
+	line-height: 1.4em;
 }
 .img1{
-	width: 656px;
 	margin: 0px;
-	height: 355px;
+	height: 650px;
+	width: 100%;
 	overflow: hidden;
-	background-position: -193px 17px; 
+	/*background-position: -193px 17px; */
 	background-repeat: no-repeat;
+	background-size: cover;
 	background-attachment: fixed;
 	background-image: url('images/image6.jpg');
 }
@@ -77,59 +75,71 @@ hr {
     margin: 0 0;
     padding: 0;
 } 
+
+.bigboxcontainer {
+	text-align: center;
+}
+
 .bigbox{
 	display: inline-block;
-	width: 656px;
 }
 .box1 {
-	padding-top: 55px;
-	padding-left: 65px;
+	padding-top: 105px;
 	float: left;
 }
 .p1{
 	padding-top: 9px;
 }
-.i3{
+.i2 img,.i3 img,.i4 img,.i5 img
+{
+	height: auto;
+	width: 600px;
+}
+
+.i3
+{
 	padding-top: 20px;
 }
 #topmost{
 	color: rgb(105,105,105);
-	font-size: 6px;
 	margin-bottom: -23px;
-	letter-spacing: 1px;
 	text-shadow: 0.15px 0.15px;
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 2px;
 }
 .t1 i h2{
 	font-family: serif;
 	color: rgb(188, 155, 93);
-	font-size: 18px;
+	font-size: 40px;
 	margin-top: 30px;
 	margin-bottom: 4px;
 }
 .t1 p{
-	font-size: 7px;
+	font-size: 25px;
     font-family: 'helvetica';
     margin-bottom: -3px;
     color: rgb(105,105,105);
 }
 .t1 a{
 	text-decoration: none;
-	font-size: 8px;
+	font-size: 15px;
 	color: black;
+	padding-top: 10px;
 	text-shadow: 0.15px 0.15px;
 	font-family: 'Open Sans', sans-serif;
 }
 .t2 i h2{
 	font-family: serif;
 	color: rgb(188, 155, 93);
-	font-size: 18px;
+	font-size: 40px;
 	padding-left: 35px;
 	margin-bottom: 0px;
 	margin-top: 20px;
 }
 .t2 p{
 	padding-bottom: 5px;
-	font-size: 7px;
+	font-size: 25px;
     font-family: 'helvetica';
     padding-left: 35px;
     letter-spacing: 0.6px;
@@ -138,9 +148,10 @@ hr {
 }
 .t2 a{
 	text-decoration: none;
-	font-size: 8px;
+	font-size: 15px;
 	color: black;
 	padding-left: 35px;
+	padding-top: 10px;
 	text-shadow: 0.15px 0.15px;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -158,29 +169,29 @@ hr {
 	margin-top: 0px;
 }
 .i4{
-	padding-left: 23px;
+	padding-left: 100px;
 	padding-top: 50px;
 }
 .i5{
-	padding-left: 23px;
+	padding-left: 100px;
 	padding-top: 20px;
 }
 .box3{
-	width: 526px;
-	height: 330px;
+	width: 50%;
+	height: 500px;
 	overflow: hidden;
 	position: relative;
 	background-repeat: no-repeat;
 	text-align: center;
 	color: white;
-	margin-left: 65px;
+	margin:auto;
 	background-size: contain;
 }
 img.secondLastImg{
 	width: 100%;
 }
 .in{
-	height: 76px;
+	height: 100px;
 	width: 209px;
 	margin: auto;
 	background-color: white;
@@ -189,19 +200,16 @@ img.secondLastImg{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.in p{
-	
-	font-size: 7px;
+.in p
+{	
 	letter-spacing: 1px;
-	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	padding-top: 15px;
 	color: rgb(105,105,105);
 }
 .in a{
 	color: rgb(69, 69, 69);
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 25px;
 	margin-top: -3px;
 }
 .in a:hover{
@@ -209,9 +217,9 @@ img.secondLastImg{
 }
 .bottext p{
 	text-align: center;
-	font-size: 7px;
+	font-size: 25px;
 	letter-spacing: 1px;
-	padding-top: 25px;
+	padding-top: 40px;
 	line-height: 0px;
 	color: rgb(105,105,105);
 }
@@ -220,12 +228,12 @@ img.secondLastImg{
 	padding-top: 0px;
 	font-family: 'Gabriela', serif;
 	color: rgb(188, 155, 93);
-	font-size: 16px;
+	font-size: 40px;
 	padding-bottom: 10px;
 }
 div.containsClass{
-	height: 270px;
-	width: 656px;
+	/* height: 270px;
+	width: 1258px;
 	opacity: 0.72;
 	margin-top: 20px;
 	margin-bottom: -7px;
@@ -233,25 +241,38 @@ div.containsClass{
 	background-image: url("images/image5.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	padding-bottom: 0px;
+	padding-bottom: 0px; */
+	margin: 0px;
+	height: 650px;
+	width: 100%;
+	overflow: hidden;
+	/*background-position: -193px 17px; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url('images/image5.jpg');
+	opacity: 0.85;
 }
 
 img.img {
 	width: 100%;
 }
 .last p{
-	padding-left: 435px;
 	padding-top: 35px;
-	line-height: 7px;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
-	font-size: 7px;
+	font-size: 15px;
 	text-shadow: 0.35px 0.35px;
+    margin-left: 67.5%;
 }
-.last{
+.last{	
 	margin-top: 0px;
-	width: 656px;
-	height: 130px;
+	width: 100%;
+	height: 240px;
 	padding-top: 0px;
 	background-color: rgb(188, 155, 93);
+}
+
+.clear {
+	clear: both;
 }
